@@ -1,0 +1,111 @@
+/* CSS Document */
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	color: #333
+}
+header h1 {
+	font-family: Roman, Forte, Georgia;
+	margin: 0px;
+	font-size: 4.5em;
+}
+#topNav a {
+	color: #f5a063;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 15px;
+	padding-top: 10px;
+}
+
+h2 {
+	margin: 0px;
+	font-size: 1.75em;
+}
+
+.container {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	height: 768px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+}
+header {
+	color: #FFF;
+	background-color: #003;
+	height: 95px;
+	width: 989px;
+	padding-top: 35px;
+	padding-left: 35px;
+}
+#titlebar {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	height: 35px;
+	width: 1024px;
+	background-color: #FFCC00;
+	text-align: center;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#main {
+	height: 448px;
+	width: 1024px;
+}
+#topNav {
+	height: 40px;
+	width: 1009px;
+	padding-top: 5px;
+	padding-left: 15px;
+	text-align: center;
+}
+#topNav a:hover {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #f5a06e;
+}
+
+
+#main #content1 {
+	height: 376px;
+	width: 440px;
+	float: left;
+	padding-top: 72px;
+	padding-left: 72px;
+}
+#main #content2 {
+	height: 448px;
+	width: 440px;
+	float: right;
+	text-align: center;
+}
+#content2 p {
+	text-align: justify;
+	display: inline-block;
+	width: 340px;
+	margin-top: 130px;
+	margin-right: 50px;
+	margin-bottom: 114px;
+	margin-left: 50px;
+	height: 220px;
+}
+
+#innermain {
+	background-color: #FFCC00;
+	height: 448px;
+	width: 1024px;
+	border-radius: 15px;
+}
+
+footer {
+	height: 200px;
+	width: 1024px;
+}
+
+footer #botNav {
+	height: 50px;
+	width: 1024px;
+}
